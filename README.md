@@ -1,10 +1,10 @@
 # AgentFocus
 
-[![CI](https://github.com/Mike-Animal-Counseling/agentFocus/actions/workflows/ci.yml/badge.svg)](https://github.com/Mike-Animal-Counseling/agentFocus/actions/workflows/ci.yml)
-[![Release](https://img.shields.io/github/v/release/Mike-Animal-Counseling/agentFocus)](https://github.com/Mike-Animal-Counseling/agentFocus/releases)
+[![CI](https://github.com/Mike-Animal-Counseling/agent-focus/actions/workflows/ci.yml/badge.svg)](https://github.com/Mike-Animal-Counseling/agent-focus/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/Mike-Animal-Counseling/agent-focus)](https://github.com/Mike-Animal-Counseling/agent-focus/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Go](https://img.shields.io/badge/Go-1.24%2B-00ADD8?logo=go&logoColor=white)](https://go.dev)
-[![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-0078D6?logo=windows&logoColor=white)](https://github.com/Mike-Animal-Counseling/agentFocus)
+[![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-0078D6?logo=windows&logoColor=white)](https://github.com/Mike-Animal-Counseling/agent-focus)
 
 **Relax while Codex works — without losing control.**
 
@@ -12,7 +12,7 @@ AgentFocus is a lightweight Windows tray app that reacts to [OpenAI Codex](https
 
 It hooks into Codex via Codex's own **hooks** mechanism (configured in `~/.codex/config.toml`), so it works alongside the Codex CLI and the VSCode extension without changing your workflow.
 
-[Download](https://github.com/Mike-Animal-Counseling/agentFocus/releases/latest) · [Install](#install) · [Usage](#usage) · [Configuration](#configuration)
+[Download](https://github.com/Mike-Animal-Counseling/agent-focus/releases/latest) · [Install](#install) · [Usage](#usage) · [Configuration](#configuration)
 
 ## How it works
 
@@ -48,7 +48,7 @@ The relax browser runs in a dedicated Chrome profile (`%LOCALAPPDATA%\AgentFocus
 ## Install
 
 ### Option A — download a release
-1. Grab `AgentFocus.exe` from the [Releases](https://github.com/Mike-Animal-Counseling/agentFocus/releases/latest) page.
+1. Grab `AgentFocus.exe` from the [Releases](https://github.com/Mike-Animal-Counseling/agent-focus/releases/latest) page.
 2. Clone or download this repo (you need `scripts/hook_probe.ps1` and `scripts/install.ps1`).
 3. Run the installer (configures the Codex hooks):
    ```powershell
@@ -59,7 +59,7 @@ The relax browser runs in a dedicated Chrome profile (`%LOCALAPPDATA%\AgentFocus
 
 ### Option B — build from source
 ```powershell
-git clone https://github.com/Mike-Animal-Counseling/agentFocus.git
+git clone https://github.com/Mike-Animal-Counseling/agent-focus.git
 cd agentFocus
 
 # Build (embeds the icon + the comctl32-v6 manifest the approval dialog needs)
